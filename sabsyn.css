@@ -1,0 +1,191 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-optical-sizing: auto;
+}
+
+.chocolate {
+  margin-left: 1em;
+
+}
+/* <uniquifier>: Use a unique and descriptive class name */
+/*<weight>: Use a value from 100 to 900*/
+
+.hero {
+  background: linear-gradient 135deg, #ff6f, #375369;
+  width: 100%; /* Adjust width as needed */
+  height: 200px; /* Use 100vh for full viewport height */
+  overflow-x: hidden; /* Example background color */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+.navbar {
+  position: fixed;
+  right: 0;
+  top: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.navbar ul li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-family: inherit;
+  font-size: 13px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  color: #7e97b8;
+  width: 14em;
+  height: 2.5em;
+  margin: 1px;
+  background-color: #375369;
+  border-style: solid;
+  border-width: 2px 2px 2px 2px;
+  border-color: rgba(19, 17, 17, 0.333);
+  border-radius: 5px -2px -2px 5px;
+  border-right: transparent;
+  padding: 2px;
+  transform: translate(0px, 0px) rotate(0 deg);
+  transition: 0.2s;
+  box-shadow: -1px -1px 8px 0px #ff6f, 4px 2px 16px 0px #ff6f (48%);
+ 
+}
+
+.navbar ul li a {
+  display: block;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #ff6f3c; /* Text color */
+  padding: 16px; /* Spacing around text */
+  text-shadow: #000; /* No underline */
+}
+
+.navbar ul li a:hover {
+    color: #000;
+    text-shadow: #ffe866 1px 1px 4px 0;
+    
+
+     
+    
+  }
+  .navlet1:hover {
+    background: linear-gradient(45deg, #ff6f3c, #375369, #48f3ff, #f5ff3c);
+    background-size: 400% 400%;
+    border-radius: 5px;
+    font-weight: bolder;
+    font-size: x-large;
+    padding: 2px;
+    transition: 0.2s;
+    box-shadow: -1px -1px 8px 0px rgb(255, 98, 0), 4px 2px 16px 0px rgb(253, 211, 5);
+    animation: gradientAnimation 6s ease infinite;
+    transform: translate(0px, 0px) rotate(-5deg);
+  }
+
+  .navlet2:hover {
+    background: linear-gradient(45deg, #ff6f3c, #375369, #48f3ff, #f5ff3c);
+    color: #000;
+    background-size: 400% 400%;
+    border-radius: 5px;
+    font-weight: bolder;
+    font-size: x-large;
+    padding: 2px;
+    transition: 0.2s;
+    box-shadow: -1px -1px 8px 0px rgb(255, 98, 0), 4px 2px 16px 0px rgb(253, 211, 5);
+    animation: gradientAnimation 6s ease infinite;
+    transform: translate(0px, 0px) rotate(3deg);
+  }
+
+  .navlet3:hover {
+    background: linear-gradient(45deg, #ff6f3c, #375369, #48f3ff, #f5ff3c);
+    color: #000;
+    background-size: 400% 400%;
+    border-radius: 5px;
+    font-weight: bolder;
+    font-size: x-large;
+    padding: 2px;
+    transition: 0.2s;
+    box-shadow: -1px -1px 8px 0px rgb(255, 98, 0), 4px 2px 16px 0px rgb(253, 211, 5);
+    animation: gradientAnimation 6s ease infinite;
+    transform: translate(0px, 0px) rotate(-3deg);
+  }
+
+  .navlet4:hover {
+    background: linear-gradient(45deg, #ff6f3c, #375369, #48f3ff, #f5ff3c);
+    color: #000;
+    background-size: 400% 400%;
+    border-radius: 5px;
+    font-weight: bolder;
+    font-size: x-large;
+    padding: 2px;
+    transition: 0.2s;
+    box-shadow: -1px -1px 8px 0px rgb(255, 98, 0), 4px 2px 16px 0px rgb(253, 211, 5);
+    animation: gradientAnimation 6s ease infinite;
+    transform: translate(0px, 0px) rotate(6deg);
+  }
+
+
+  
+/* Centering the logo */
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%; /* Ensure full width if necessary */
+}
+.logo {
+  width:29%;
+  height:auto;
+}
+
+body {
+  background-color: #000;
+  margin-left: 1.2 em;
+  padding-left: 2 em;
+}
+
+p {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  margin: 10px, 1px, 1px, 1px;
+  color: #FF9A3C;
+}
+
+h2, h3 {
+  justify-content: center;
+  align-content: center;
+  color: #FF9A3C;
+}
+
+.paragraph-1, .brand, .afford {
+  color: #ffe866;
+}

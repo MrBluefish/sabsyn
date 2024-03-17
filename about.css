@@ -1,0 +1,72 @@
+/* CSS for the navigation bar */
+ul.navbar {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:transparent;
+    background-image: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEimt9oUS0e-R3qQjbBADXCN0QrOQcAgckjXF3CnJSwzg04PimMlI2_sSpiePJsNWtUGbk30VOvYqdUDpO0EZ2E-R00UVPSk_aTV2CaqQk20MR_YNwaI02adWWYrfsi59kI7gePd9yvgLIOuFRc9DWAFm8pZkRcag7bVmwSllTeYX81jxGrQ3U6v-8RVsVI/s1400/SabSyn4_logo-2.png");
+    background-position: 25%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+  }
+  
+  ul.navbar li {
+    color: aqua;
+  }
+  
+  ul.navbar li a {
+    color: #00d4ff;
+    font-family:monospace;
+    text-decoration: none;
+    text-align: center;
+    height: 100%;
+    line-height: 100%;
+
+  }
+  
+  ul.navbar li a:hover {
+    background-color: #00d4ff;
+    color: #fd5501;
+    border-radius: .25em;
+  }
+
+  body {
+    background-image: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiDUhAd0TtxYdWemh5xt-xLytrcgsIQeEy5KgBU3fNv0DntF0Y60t1A7-AaOlYS5EabcJxn_CMEqSAnQo5Qr1A8p6P4Rh5kKbZOhgkGjJ7oJ7CNcNJUiYZ0F4KsvDzI_YtFpeuhQD8AHZm1l6Rs24_D87vzxtou-as7xAsWZ6Mgt8A_dWQ9ua8g7cokurs/s1400/sabsyn_logo.png");
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+  }
+.about{
+  color: #00d4ff;
+  font-family:monospace;
+  text-decoration: none;
+  text-align: center;
+  height: 100%;
+  line-height: 100%;
+  background-color: #0e0e0e;
+  border-radius: 1em;
+  padding: 1%;
+  opacity: 90%;
+}
+
+.team {
+    color: #00d4ff;
+    font-family:monospace;
+    text-decoration: none;
+    text-align: center;
+    height: 100%;
+    line-height: 100%;
+    margin: 3%;
+    background-color: #0e0e0e;
+    border-radius: 1em;
+    padding: 1%;
+    opacity: 90%;
+}
